@@ -6,7 +6,11 @@ h1{
     text-decoration: underline;
     text-transform: capitalize;
 }
-
+hr{
+    height:6px;
+    width:100%;
+    background-color: #e86868;
+}
 ul{
     width: 300px;
     float: right;
