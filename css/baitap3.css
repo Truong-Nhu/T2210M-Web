@@ -14,6 +14,12 @@ body{
 }
 .anh{
     height: 50%;
+    /*transform: scale(1.5);*/
+    /*transition: all 1s;*/
+}
+.anh:hover{
+    transform: scale(1.2);
+    transition: all 100ms;
 }
 div{
     float: left;
@@ -39,10 +45,10 @@ div{
 
 }
 a{
-    color: blue;
+    color: #0888b6;
 }
 a:hover{
-    color: #69657c;
+    color: red;
 }
 
 .box-m{
@@ -78,5 +84,8 @@ a:hover{
     width: 60px;
 }
 .box-m #phuluc li:hover{
-    background-color: rgba(203, 201, 201, 0.37);
+    background-color: rgba(143, 139, 139, 0.37);
+}
+.link{
+    color: rgba(35, 36, 37, 0.3);
 }
