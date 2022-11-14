@@ -7,9 +7,10 @@ h1{
     text-transform: capitalize;
 }
 hr{
-    height:6px;
+    /*height:6px;*/
     width:100%;
-    background-color: #e86868;
+    /*background-color: #e86868;*/
+    border-top: 6px dashed #e86868;
 }
 ul{
     width: 300px;
