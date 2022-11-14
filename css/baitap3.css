@@ -1,0 +1,82 @@
+img{
+    max-width: 100%;
+}
+body{
+    margin: 50px 50px;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+.box-s{
+    width: 100%;
+    height: 45%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.anh{
+    height: 50%;
+}
+div{
+    float: left;
+}
+.box-b{
+    text-align: center;
+    width: 100%;
+}
+.box-a{
+    box-sizing: border-box;
+}
+.box-a li{
+    float: left;
+    margin: 30px 20px;
+    list-style: none;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+}
+.title{
+    height: 15%;
+    font-size: 25px;
+
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: #69657c;
+}
+
+.box-m{
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: block;
+}
+#phuluc{
+    margin-left: 30% ;
+}
+.box-m li{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    list-style: none;
+    background-color: rgba(52, 46, 46, 0.37);
+    color: white;
+    text-align: center;
+}
+.box-m a{
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 1px 1px 0;
+    color: white;
+    padding: 0px 2px;
+    width: 40px;
+}
+#next{
+    width: 60px;
+}
+.box-m #phuluc li:hover{
+    background-color: rgba(203, 201, 201, 0.37);
+}
