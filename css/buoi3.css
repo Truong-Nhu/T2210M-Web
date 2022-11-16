@@ -1,0 +1,53 @@
+img{
+    max-width: 100%;
+}
+
+.box-demo #ab{
+    color: #0fa9a7 !important; /* important độ ưu tiên bố của bố*/
+    font-size: 25px;
+}
+
+div{
+    width: calc(22% - 5px); /*tính toán đơn vị khác nhau*/
+    height:500px ;
+    float: left;
+    /*margin: 10px 10px 13px 13px; !* viền: trên phải dưới trái*!*/
+    margin: 10px 15px 100px;
+    padding: 10px; /*Lề*/
+    background-color: #f7dc01;
+    box-sizing: border-box; /* cố định cấu trúc bên trong*/
+    border: 5px solid cadetblue;
+    border-radius: 6px;/*bo góc*/
+    box-shadow: 10px 10px 26px rgba(220, 50, 101, 0.91);/*đổ bóng*/
+    /*transform: rotate(10deg); !*biến hình: xoay,zoom,...*!*/
+    display:block;
+
+}
+/* hover trạng thái sau khi đưa chuột vào*/
+div:hover{
+    transform: rotate(360deg); /*biến hình: xoay,zoom,...*/
+    transition: all 100ms; /*thời gian thay đổi trạng thái*/
+    display: block;
+    background-color: #a4f0f3;
+}
+#box-a{
+    background-color: #e1f7f7;
+    color: violet;
+    box-sizing: border-box;
+}
+.box-d .tien{
+    color: blue;
+}
+.tien{
+    color: red;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #e86868;
+}
+
+/*độ ưu tiên: tag > parent tag > class > parent tag > id > parent id*/
