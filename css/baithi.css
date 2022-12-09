@@ -1,0 +1,17 @@
+body{
+    background-color: #0fa9a7;
+}
+.col-10{
+    background-color: #FFFFFF;
+}
+.icon{
+    text-align: center;
+   height: 100px;
+    background-color: #7153b4;
+}
+.icon span{
+    height: 50px;
+}
+.color-icon{
+    color: black;
+}
