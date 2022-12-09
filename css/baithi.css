@@ -1,17 +1,39 @@
 body{
     background-color: #0fa9a7;
 }
-.col-10{
+.containter{
+}
+a{
+    text-decoration: none;
+}
+.col-5{
+    margin-top: 100px;
     background-color: #FFFFFF;
 }
 .icon{
     text-align: center;
-   height: 100px;
-    background-color: #7153b4;
+    background-color: #645398;
 }
 .icon span{
     height: 50px;
 }
 .color-icon{
     color: black;
+}
+.sign-input{
+    margin: 30px;
+}
+
+.button{
+    padding: 10px 0px;
+    font-size: 30px;
+    background-color: #645398;
+    line-height: 30px;
+}
+.button-a{
+    color: #FFFFFF;
+}
+.sign-button{
+    text-align: center;
+    margin: 10px 30px 25px;
 }

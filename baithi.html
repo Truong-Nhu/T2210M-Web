@@ -12,26 +12,53 @@
 <body>
 <div class="container">
 
-        <div class="col-10">
+        <div class="col-5">
             <div class="sig-top">
                 <div class="icon">
-                <span><i class="fa-solid fa-pen-to-square"></i></span>
+                <span><i class="fas fa-money-check-edit"></i></span>
                 <p>REGISTER</p>
                 </div>
             </div>
 
             <div class="sign-input">
-                <div >
+                <div  class="sign-icon" >
+                    <form action="" method="POST">
+                        <span class="sign-icon"><i class="fas fa-user"></i></span>
+                        <input type="text" name="name" placeholder="Username" required="">
+                    </form>
+                </div>
+                <div  class="sign-icon">
+                    <form action="" method="POST">
+                        <span class="sign-icon"><i class="fas fa-user-lock"></i></span>
+                        <input name="mk" type="password" placeholder="********">
+                    </form>
+                </div>
+                <div class="sign-icon">
+                    <form action="" method="POST">
+                        <span class="sign-icon"><i class="fas fa-user-lock"></i></span>
+                        <input name="mk" type="password" placeholder="*****************">
+                    </form>
+                </div>
 
+                <div  >
+
+                    <form action="" method="POST">
+                        <span class="sign-icon"><i class="far fa-envelope"></i></span>
+                        <input type="text" name="email" placeholder="E-mail">
+                    </form>
                 </div>
 
             </div>
+
+            <label ><input name="chon" type="checkbox" value="1">I agree to the <a href="#">Terms of Servicee</a> </label>
             <div class="sign-button">
                 <div>
 
                 </div>
-                <button></button>
-                <span>
+                <div class="button"><a href="#">
+                    <span class="button-a">SIGN UP</span></a>
+                </div>
+                <span class="button-b">
                     Already a member ? <a href="#" class="log">Login Here</a>
                 </span>
             </div>
